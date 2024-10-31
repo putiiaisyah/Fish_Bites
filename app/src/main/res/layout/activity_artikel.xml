@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".artikel">
+
+
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_back"
+                    tools:layout_editor_absoluteX="25dp"
+                    tools:layout_editor_absoluteY="50dp"
+                    tools:ignore="MissingConstraints" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Artikel"
+                    android:textColor="@color/cadedblue"
+                    android:fontFamily="@font/readex_bold"
+                    tools:layout_editor_absoluteX="58dp"
+                    tools:layout_editor_absoluteY="45dp"
+                    android:textSize="20dp"
+                    tools:ignore="MissingConstraints" />
+
+            <Button
+                    android:layout_width="82dp"
+                    android:layout_height="38dp"
+                    android:backgroundTint="@color/cadedblue"
+                    android:fontFamily="@font/readex_bold"
+                    android:gravity="center"
+                    android:text="Semua"
+                    android:textSize="8dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="34dp"
+                    tools:layout_editor_absoluteY="85dp" />
+
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="38dp"
+                android:backgroundTint="@color/cadedblue"
+                android:fontFamily="@font/readex_bold"
+                android:gravity="center"
+                android:text="Berita Ikan"
+                android:textSize="7dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="125dp"
+                tools:layout_editor_absoluteY="85dp" />
+
+            <Button
+                    android:layout_width="82dp"
+                    android:layout_height="38dp"
+                    android:backgroundTint="@color/cadedblue"
+                    android:gravity="center"
+                    android:fontFamily="@font/readex_bold"
+                    android:text="Pakan"
+                    android:textSize="8dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="215dp"
+                    tools:layout_editor_absoluteY="85dp" />
+
+            <Button
+                    android:layout_width="82dp"
+                    android:layout_height="38dp"
+                    android:backgroundTint="@color/cadedblue"
+                    android:fontFamily="@font/readex_bold"
+                    android:gravity="center"
+                    android:text="Budidaya"
+                    android:textSize="7dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="304dp"
+                    tools:layout_editor_absoluteY="85dp" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Berita Terkini"
+                    android:fontFamily="@font/readex_bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    tools:layout_editor_absoluteX="34dp"
+                    tools:layout_editor_absoluteY="145dp"
+                    tools:ignore="MissingConstraints" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/budidaya_ikan"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="171dp" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Berita Lainnya"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/readex_bold"
+                    android:textColor="@color/black"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="34dp"
+                    tools:layout_editor_absoluteY="316dp" />
+
+            <ImageView
+                    android:layout_width="455dp"
+                    android:layout_height="579dp"
+                    android:src="@drawable/bg_cadetblue2"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="-23dp"
+                    tools:layout_editor_absoluteY="345dp" />
+
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bg_putih2"
+                    tools:layout_editor_absoluteX="49dp"
+                    tools:layout_editor_absoluteY="392dp" />
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bg_putih2"
+                    tools:layout_editor_absoluteX="53dp"
+                    tools:layout_editor_absoluteY="525dp" />
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bg_putih2"
+                    tools:layout_editor_absoluteX="53dp"
+                    tools:layout_editor_absoluteY="659dp" />
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="38dp"
+                android:backgroundTint="@color/cadedblue"
+                android:fontFamily="@font/readex_bold"
+                android:gravity="center"
+                android:text="Lihat Selengkapnya"
+                android:textSize="9dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="181dp"
+                tools:layout_editor_absoluteY="443dp" />
+
+            <Button
+                    android:layout_width="160dp"
+                    android:layout_height="38dp"
+                    android:backgroundTint="@color/cadedblue"
+                    android:gravity="center"
+                    android:text="Lihat Selengkapnya"
+                    android:textSize="9dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="711dp" />
+
+            <Button
+                    android:layout_width="160dp"
+                    android:layout_height="38dp"
+                    android:backgroundTint="@color/cadedblue"
+                    android:gravity="center"
+                    android:text="Lihat Selengkapnya"
+                    android:textSize="9dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="580dp" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pakan Berkualitas"
+                    android:fontFamily="@font/readex_bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="34dp"
+                    tools:layout_editor_absoluteY="786dp" />
+
+            <ImageView
+                    android:layout_width="83dp"
+                    android:layout_height="92dp"
+                    android:src="@drawable/pakan_ikan"
+                    tools:layout_editor_absoluteX="53dp"
+                    tools:layout_editor_absoluteY="817dp" />
+
+                <ImageView
+                    android:layout_width="83dp"
+                    android:layout_height="92dp"
+                    android:src="@drawable/pakan_ikan"
+                    tools:layout_editor_absoluteX="164dp"
+                    tools:layout_editor_absoluteY="817dp" />
+
+                <ImageView
+                    android:layout_width="83dp"
+                    android:layout_height="92dp"
+                    android:src="@drawable/pakan_ikan"
+                    tools:layout_editor_absoluteX="270dp"
+                    tools:layout_editor_absoluteY="817dp" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

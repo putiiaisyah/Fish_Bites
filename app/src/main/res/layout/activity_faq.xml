@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".faq">
+
+
+        <!-- Bagian atas dengan logo dan ikon profil -->
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FBFBFB"
+            android:backgroundTint="#FFFFFF"
+            app:srcCompat="@drawable/profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="25dp" />
+
+        <!-- Text "Butuh Informasi Lebih?..." -->
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="92dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="95dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Butuh Informasi Lebih? Sampaikan Pertanyaanmu!"
+            android:textColor="@color/cadedblue"
+            android:fontFamily="@font/readex_bold"
+            android:textSize="19sp"
+            app:layout_constraintStart_toEndOf="@id/imageView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/imageView2"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Background bagian isian form -->
+
+        <!-- Label dan isian Nama -->
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="654dp"
+            android:layout_height="783dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView2"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/bg_faq" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="52dp"
+            android:text="Nama:"
+            android:fontFamily="@font/readex_bold"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/imageView" />
+
+        <EditText
+            android:id="@+id/editTextNama"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="hint"
+            app:layout_constraintTop_toBottomOf="@id/textView2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp" />
+
+        <!-- Label dan isian Email -->
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textColor="@color/white"
+            android:fontFamily="@font/readex_bold"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@id/editTextNama"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="36dp" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="hint"
+            app:layout_constraintTop_toBottomOf="@id/textView3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp" />
+
+        <!-- Label dan isian Kategori Pertanyaan -->
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kategori Pertanyaan:"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:fontFamily="@font/readex_bold"
+            app:layout_constraintTop_toBottomOf="@id/editTextEmail"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="36dp" />
+
+        <EditText
+            android:id="@+id/editTextKategori"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="hint"
+            app:layout_constraintTop_toBottomOf="@id/textView4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp" />
+
+        <!-- Label dan isian Deskripsi Pertanyaan -->
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi Pertanyaan:"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:fontFamily="@font/readex_bold"
+            app:layout_constraintTop_toBottomOf="@id/editTextKategori"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="36dp" />
+
+        <EditText
+            android:id="@+id/editTextDeskripsi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="hint"
+            app:layout_constraintTop_toBottomOf="@id/textView5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp" />
+
+        <!-- Button Kirim FAQ -->
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kirim FAQ"
+            android:textColor="@color/cadedblue"
+            app:layout_constraintTop_toBottomOf="@id/editTextDeskripsi"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:backgroundTint="@color/yellow"
+            android:layout_marginTop="24dp" />
+
+        <!-- Tombol kembali -->
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@android:color/transparent"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="25dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
